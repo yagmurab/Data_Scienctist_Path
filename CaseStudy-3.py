@@ -11,7 +11,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 pd.set_option('display.max_columns', None)
 pd.set_option('display.float_format', lambda x: '%.2f' % x)
-df = pd.read_excel('C:\\Users\\AYSE\\OneDrive\\Masaüstü\\Data Science\\MIUUL\\02_Python\gezinomi\\miuul_gezinomi.xlsx')
+df = pd.read_excel('data.xlsx')
 
 print(df.head())
 print(df.info())
